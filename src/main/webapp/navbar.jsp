@@ -44,6 +44,7 @@
 <div class="navbar">
     <a href="dashboard.jsp" class="<%= request.getRequestURI().endsWith("dashboard.jsp") ? "active" : "" %>">Home</a>
     <a href="profile.jsp" class="<%= request.getRequestURI().endsWith("profile.jsp") ? "active" : "" %>">Profile</a>
+    <a href="HistoryServlet" class="<%= request.getRequestURI().endsWith("HistoryServlet") ? "active" : "" %>">History</a>
     <a href="UserServlet?action=logout" class="logout">Logout</a>
 </div>
 </body>

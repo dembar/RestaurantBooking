@@ -56,7 +56,7 @@
 <%@ include file="navbar.jsp" %>
 
 <div class="profile-container">
-    <h2>Edit Profile</h2>
+    <h2>Edit Profile <%= session.getAttribute("user_id") %></h2>
     <form action="ProfileServlet" method="post">
         <!-- display Password (Non-Editable) -->
         <div class="form-group">

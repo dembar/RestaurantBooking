@@ -51,7 +51,7 @@ public class UserServlet extends HttpServlet {
 
         if ("register".equals(action)) {
             // Handle user registration
-        	 String name = request.getParameter("name");
+        	String name = request.getParameter("name");
              String email = request.getParameter("email");
              String password = request.getParameter("password");
              String phoneNumber = request.getParameter("phone_number");
